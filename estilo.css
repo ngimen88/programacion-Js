@@ -1,0 +1,192 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    position:sticky;
+    top: 0px;
+}
+
+.menu_home {
+
+    background-color: rgb(50, 59, 64);
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+}
+
+ul {
+   
+    display: flex;
+    flex-direction: row;
+    justify-content:end ;
+    align-content: center;
+    
+
+}
+
+a {
+   
+    text-decoration: none;
+    align-content: center;
+    padding: 10px 15px 10px 30px;
+}
+
+li {
+    list-style-type: none;
+    font-size: 20px;
+    color: #ffffff;
+    
+   
+}
+
+li:hover {
+    background-color: rgb(33, 131, 131);
+    transform: scale(1, 1);
+}
+/*<------------CAJA TRASERA INICIO/REGISTRO ------->*/
+
+
+
+main{
+    position: relative;
+    height: 550px;
+    background-image: url("BOTANIC-8.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+
+
+
+.contenedor__todo{
+    width: 700px;
+    position: relative;
+    position: absolute;
+    right: 0px;
+    bottom: 10px;
+    
+}
+
+.caja__trasera{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: rgba(50, 59, 64 , 0.5);
+
+}
+.caja__trasera-login{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    
+}
+.caja__trasera-register{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+#btn__iniciar-sesion{
+    cursor: pointer;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    background-color: transparent;
+    color: white;
+    border: 2px solid;
+    
+}
+
+
+#btn__registrarse{
+    cursor: pointer;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    background-color: transparent;
+    color: white;
+    border: 2px solid;
+    
+    
+}
+
+#btn__iniciar-sesion:hover{
+   background-color: white;
+   color:#46a2fd;
+
+}
+#btn__registrarse:hover{
+    background-color: white;
+    color:#46a2fd;
+
+}
+/*<---------------CAJA DELANTERA INIO/REISTRO -------->*/
+.contenedor__login-register{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+    
+    
+}
+
+.formulario__register{
+    background-color: rgba(222, 229, 233, 1);
+    width: 350px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border-radius: 10px;
+    position: absolute;
+    left: 0px;
+    top: -70px;
+    display: none;
+    opacity: 0;
+    
+   
+    
+}
+h2{padding-top: 10px;
+    text-align: center;
+    font-weight: 600;
+    font-size: 30px;
+}
+input{
+    border: none;
+    padding: 5px;
+    margin: 10px;
+}
+button{
+    margin: auto;
+    padding: 10px 40px;
+    background-color:rgb(50, 59, 64);
+    color: white;
+    cursor: pointer;
+}
+.formulario__login{
+    background-color: rgba(222, 229, 233, 1);
+    width: 350px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border-radius: 10px;
+    align-items: center;
+    position: absolute;
+    right: 0px;
+    top:0px;
+    display: none;
+    opacity: 0;
+    
+}
+
+
+/*-------------------------------------------FOOTER----------------------------*/
